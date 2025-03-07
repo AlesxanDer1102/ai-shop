@@ -1,0 +1,125 @@
+# AgenteShop: Mantle DeFi Decentralized Trade Marketing
+
+
+
+
+<div align="center">
+  <img src="assets/logo/logo.svg" alt="HiveFi Logo" width="200"/>
+  <h3>Revolutionizing Mantle with AI-Powered Decentralize de Industry of the Trade Marketing</h3>
+  <p> Taking the power away from the factories and distributors and giving it to those who do the hard work (Sales Person) )</p>
+    <p align="center">
+    </a>
+  </p>
+  🔅 Sozu Virtual AI Hack Project 💥
+</div>
+## 📚 Table of Contents
+
+- [🌟 Overview](#-overview)
+  - [Why Multi-Agent Systems (MAS)?](#why-multi-agent-systems-mas)
+- [✨ Features](#-features)
+  - [Core Features](#core-features)
+  - [Mantle Features](#mantle-features)
+  - [Web App Features](#️-web-app-features)
+  
+ 
+- [🧪 How to use?](#-how-to-use)
+- [🔍 Important Notes](#-important-notes)
+- [🛠️ Development](#️-development)
+  - [Project Structure](#project-structure)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🤖 AI Workforce Suite](#-ai-workforce-suite)
+
+## 🌟 Overview
+
+HiveFi is an innovative open-source project revolutionizing the Mantle DeFi landscape through AI-powered agent swarms. By employing a sophisticated multi-agent system, HiveFi streamlines and automates DeFi operations, offering users a seamless and efficient experience on Mantle. Its modular design ensures scalability and adaptability, empowering users to navigate the complexities of DeFi with ease and confidence.
+
+You can find detailed information in our [technical specifications](docs/specs.md), [system overview](docs/overview.md), and [complete whitepaper](docs/whitepaper.md).
+
+### Why Multi-Agent Systems (MAS)?
+
+Our platform leverages a Multi-Agent System architecture where each agent specializes in specific tasks—from fetching metrics to executing trades—enabling modular, scalable, and efficient operations. This approach ensures:
+
+- **🎯 Specialization**: Optimized performance through task-specific agents
+- **📈 Scalability**: Easy addition of new agents and features
+- **🛡️ Robustness**: Continued operation even if individual agents fail
+- **⚡ Efficiency**: Parallel task execution for improved performance
+- **🔄 Adaptability**: Seamless integration with new protocols and APIs
+
+Learn more about our agent system in the [agents documentation](docs/agents.md).
+
+
+<div align="center">
+  <img src="assets/architecture.png" alt="HiveFi Architecture" width="800"/>
+  <p><em>HiveFi Architecture</em></p>
+</div>
+
+## ✨ Features
+
+### Core Features
+
+- 💬 Natural language processing
+- 🤖 Multi-Agent System (MAS): 18 AI Agents included.
+- 🔅 Integrated Website & Web App
+- 🛠️ Full-featured Discord, Twitter and Telegram connectors
+- 🔗 Support for every model (Llama, Grok, OpenAI, Anthropic, etc.)
+- 👥 Multi-agent and room support
+- 📚 Easily ingest and interact with your documents
+- 💾 Retrievable memory and document store
+- 💰 Real-time prices using CoinGecko API
+- 🚀 Real-time TVL using DefiLlama API
+- 📝 Text generation and analysis
+
+- 🗣️ Speech synthesis and recognition
+- 📊 Data visualization
+- 🌐 Web browsing capabilities
+- 🚀 Highly extensible - create your own actions and clients
+
+### Mantle Features
+
+- 💰 Wallet management
+- 💸 Token transfers (ETH, USDT, MNT, and custom tokens)
+- 💱 Token swapping on Merchant Moe
+- 🔍 Transaction tracking
+- 💸 Lending on Lendle
+- 💸 Borrowing on Lendle
+- 💧 Add and Remove Liquidity on Merchant Moe (WIP)
+
+
+
+
+<div align="center">
+  <img src="assets/WebApp.png" alt="HiveFi Client Interface" width="800"/>
+  <p><em>HiveFi Web Client</em></p>
+</div>
+
+## 🧰 Tech Stack
+
+- ElizaOS
+- Vite
+- TailwindCSS
+- ShadcnUI
+- Typescript
+- Python
+- NodeJS
+
+
+### 🤖 Agent Categories
+
+For complete details about each agent's capabilities and use cases, see our [agents documentation](docs/agents.md) and [AI Workforce Suite documentation](docs/aiws.md).
+
+#### 🏢 Internal Agents (Platform Operations)
+1. 💼 Sales Agent: Customer relations and onboarding
+2. 🎨 Meme Agent: Social media marketing agents promoting HiveFi
+3. 🎮 Demo Agent: Interactive platform demonstration and feature showcase
+
+
+
+
+
+<div align="center">
+  <p>Built with ❤️ by the Aless and Livi team</p>
+  <p> 
+
+  
+  
