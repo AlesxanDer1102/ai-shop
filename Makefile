@@ -45,5 +45,5 @@ verify-contract:
 	@forge verify-contract --rpc-url $(MANTLE_SEPOLIA_RPC_URL)  0x7D83Feebbf3509E18bdc294a5fe91f0462Bf9928 src/IAShop.sol:IAShop --verifier blockscout --verifier-url https://explorer.sepolia.mantle.xyz/api/
 
 create-verify:
-	@forge create  --rpc-url $(MANTLE_SEPOLIA_RPC_URL)  --account $(ACCOUNT) --broadcast  src/IAShop.sol:IAShop --verify --verifier blockscout --verifier-url https://explorer.sepolia.mantle.xyz/api/ --constructor-args 10000e18 0xe75eCb9a15aCeff35749665b0e7Ef922A6C775D7 --gas-limit 600000000
+	@forge create src/IAShop.sol:IAShop  --rpc-url $(MANTLE_SEPOLIA_RPC_URL)  --account $(ACCOUNT) --broadcast  
 
