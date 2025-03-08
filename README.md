@@ -1,10 +1,10 @@
-# Nomade Shop
+# Kuntur Shop
 
-Nomade Shop será capaz de eliminar las billeteras, porque cobrará a las personas por mensaje de texto. Para fidelizar al usuario (Merchant ) necesitamos entender su comportamiento y relación con necesidades y problemas que tiene de operatividad como inventario, cobro, invertir ganancias (Staking ), Solicitar productos. 
+Kuntur Shop será capaz de eliminar las billeteras, porque cobrará a las personas por mensaje de texto. Para fidelizar al usuario (Merchant ) necesitamos entender su comportamiento y relación con necesidades y problemas que tiene de operatividad como inventario, cobro, invertir ganancias (Staking ), Solicitar productos. 
 
 ## Propósito del Proyecto
 
-El propósito de Nomade Shop es descentralizar la estructura actual que existe en los canales de distribución, ofreciendo una oportunidad única para que los vendedores puedan ganar comisiones al referir nuestro sistema de cobros. Además, Nomade Shop eliminará la necesidad de billeteras tradicionales, ya que cobrará a las personas por mensaje de texto.
+El propósito de kuntur Shop es descentralizar la estructura actual que existe en los canales de distribución, ofreciendo una oportunidad única para que los vendedores puedan ganar comisiones al referir nuestro sistema de cobros. Además, Nomade Shop eliminará la necesidad de billeteras tradicionales, ya que cobrará a las personas por mensaje de texto.
 
 ## Tecnologías Utilizadas
 

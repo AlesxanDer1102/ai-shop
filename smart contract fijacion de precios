@@ -1,0 +1,56 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract DynamicPricing {
+    address public owner;
+    uint256 public basePrice;
+    uint256 public priceIncreaseInterval;
+    uint256 public priceIncreaseAmount;
+    uint256 public lastPriceUpdateTime;
+    
+    event PriceUpdated(uint256 newPrice);
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only the owner can call this function.");
+        _;
+    }
+
+    constructor(uint256 _basePrice, uint256 _priceIncreaseInterval, uint256 _priceIncreaseAmount) {
+        owner = msg.sender;
+        basePrice = _basePrice;
+        priceIncreaseInterval = _priceIncreaseInterval;
+        priceIncreaseAmount = _priceIncreaseAmount;
+        lastPriceUpdateTime = block.timestamp;
+    }
+
+    function getCurrentPrice() public view returns (uint256) {
+        uint256 timeElapsed = block.timestamp - lastPriceUpdateTime;
+        uint256 numberOfIncreases = timeElapsed / priceIncreaseInterval;
+        return basePrice + (numberOfIncreases * priceIncreaseAmount);
+    }
+
+    function updatePrice() public onlyOwner {
+        uint256 newPrice = getCurrentPrice();
+        basePrice = newPrice;
+        lastPriceUpdateTime = block.timestamp;
+        emit PriceUpdated(newPrice);
+    }
+
+    function purchase() public payable {
+        uint256 currentPrice = getCurrentPrice();
+        require(msg.value >= currentPrice, "Insufficient funds to purchase.");
+        // Process the purchase (e.g., transfer ownership of a digital asset)
+    }
+
+    function setBasePrice(uint256 _basePrice) public onlyOwner {
+        basePrice = _basePrice;
+    }
+
+    function setPriceIncreaseInterval(uint256 _priceIncreaseInterval) public onlyOwner {
+        priceIncreaseInterval = _priceIncreaseInterval;
+    }
+
+    function setPriceIncreaseAmount(uint256 _priceIncreaseAmount) public onlyOwner {
+        priceIncreaseAmount = _priceIncreaseAmount;
+    }
+}
